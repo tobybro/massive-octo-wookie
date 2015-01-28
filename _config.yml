@@ -1,0 +1,9 @@
+name: "http://localhost:4000"
+description: ""
+
+url: "[YOUR DOMAIN]"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
