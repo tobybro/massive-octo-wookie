@@ -1,9 +1,43 @@
-name: "http://localhost:4000"
-description: ""
+# Site settings
+title: dash of remi
+email: admin@dashofremi.com
+url: https://dashofremi.com
+description: "crafts and things with a dash of remi"
 
-url: "[YOUR DOMAIN]"
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: A2122F #18bc9c #80B3FF
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
 
-paginate: 10
+# Footer settings
+footer:
+  copyright: Dash of Remi
+  #location: Location
+  social: Around the Web
+  #credits: Credits
 
-markdown: rdiscount
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  #- title: twitter
+  #  url: http://twitter.com/jekyllrb
+  - title: facebook
+    url: http://facebook.com/dashofremi
+  #- title: stack-overflow
+  #  url: http://stackoverflow.com/questions/tagged/jekyll
+  #- title: bitbucket
+  #  url: http://bitbucket.org/jekyll
+  #- title: github
+  #  url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  #- line: 
+  #- line: Azle, TX 76020
+
+# Credits content
+credits: ''
+
+# Build settings
+markdown: kramdown
 permalink: pretty
